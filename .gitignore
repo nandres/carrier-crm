@@ -1,0 +1,9 @@
+node_modules
+dist
+.impeccable
+.claude
+.vercel
+PRODUCT.md
+*.log
+
+.vercel
