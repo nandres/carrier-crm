@@ -1,8 +1,14 @@
 # Carrier
 
+[![CI](https://github.com/nandres/carrier-crm/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/nandres/carrier-crm/actions/workflows/ci.yml)
+
+**Live demo:** https://carrier-crm.vercel.app
+
 A financial CRM demo, designed and built by Marcos Arellano. It keeps clients, proposals, invoices, collections and incoming cash in one place, for a small service business that needs to know who owes what and who to chase today.
 
 **Every client, invoice and amount in the demo is fictional.** Carrier is a portfolio project: it shows what a tailored CRM can look like. It is not a commercial product, has no customers, is not accounting software, and does not connect to banks or process payments.
+
+![Collections: invoices as capsules in glass tubes](docs/collections.png)
 
 ## What works
 
@@ -14,6 +20,10 @@ A financial CRM demo, designed and built by Marcos Arellano. It keeps clients, p
 - **Cash in:** what is owed by age, money collected per month and expected over the next 8 weeks (each also as a table), plus average days to pay.
 - **Search:** `Ctrl K` finds invoices, clients and actions.
 - **Also:** English and Spanish, phone layout, keyboard moves with `[` and `]`, CSV export safe for Excel, local persistence and a button to restore the sample data.
+
+| To chase | Cash in |
+|---|---|
+| ![To chase](docs/to-chase.png) | ![Cash in](docs/cash-in.png) |
 
 ## The design
 
@@ -44,3 +54,9 @@ npm test
 ```bash
 npm run build
 ```
+
+## License
+
+Proprietary: the code is public to read and evaluate, see [LICENSE](LICENSE).
+
+Built by **Marcos Arellano** · [marcos-arellano.vercel.app](https://marcos-arellano.vercel.app)
