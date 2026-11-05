@@ -74,6 +74,7 @@ export function Clients() {
         </table>
         {rows.length === 0 && <p className="tube-empty">{t('clients.none')}</p>}
       </section>
+      <p className="sample-note">{t('sample')}</p>
     </main>
   );
 }

@@ -91,6 +91,7 @@ export function Chase() {
           ))}
         </ul>
       )}
+      <p className="sample-note">{t('sample')}</p>
     </main>
   );
 }

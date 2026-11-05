@@ -884,6 +884,10 @@ a {
   border-radius: 0 0 18px 18px;
 }
 
+.page-head :focus-visible {
+  outline-color: #fff;
+}
+
 .page-head .btn {
   color: #fff;
   border-color: rgb(255 255 255 / 0.4);
